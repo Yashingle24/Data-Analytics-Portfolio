@@ -17,9 +17,7 @@ This *E-Commerce Sales Dashboard* provides an *interactive visualization* of onl
 - Identified *top-selling products* and *customer preferences*.  
 - Suggested *sales strategies* to boost revenue and customer engagement.  
 - Enabled *data-driven decision-making* through advanced filters and calculations.  
-
-## 📷 Dashboard Preview  
-(Add a screenshot of your Tableau dashboard here)  
+ 
 
 ## 📂 Tools & Technologies  
 - *Tableau / Power BI*  
