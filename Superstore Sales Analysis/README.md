@@ -18,8 +18,7 @@ This project analyzes *Superstore's sales data* over multiple years using *Power
 - Analyzed *regional sales variations* to optimize supply chain strategies.  
 - Suggested *better payment modes* and *shipping optimizations* to boost sales.  
 
-## 📷 Dashboard Preview  
-(Add a screenshot of your Power BI dashboard here)  
+
 
 ## 📂 Tools & Technologies  
 - *Power BI*  
