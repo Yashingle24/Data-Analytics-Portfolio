@@ -18,8 +18,6 @@ This *HR Analytics Dashboard* provides insights to help organizations *reduce em
 - Suggested *workplace improvements* to enhance employee satisfaction.  
 - Developed *strategies to reduce turnover rates* and boost company productivity.  
 
-## 📷 Dashboard Preview  
-(Add a screenshot of your HR Analytics dashboard here)  
 
 ## 📂 Tools & Technologies  
 - *Power BI / Tableau*  
