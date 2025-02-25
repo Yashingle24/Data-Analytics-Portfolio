@@ -1,0 +1,16 @@
+📂 Cyclistic-Case-Study
+│── 📜 README.md
+│── 📂 Data
+│   ├── raw_data.csv (if allowed, otherwise mention data source)
+│   ├── processed_data.csv
+│── 📂 SQL
+│   ├── data_cleaning.sql
+│   ├── analysis_queries.sql
+│── 📂 PowerBI
+│   ├── dashboard.pbix
+│   ├── screenshots/
+│── 📂 Reports
+│   ├── Cyclistic_Report.pdf
+│   ├── Cyclistic_Presentation.pptx
+│── 📂 Scripts
+│   ├── video_script.md
