@@ -1,0 +1,33 @@
+// Load the CSV data
+let
+    Source = Csv.Document(File.Contents("trips_data.csv"), [Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+
+    // Rename columns (if necessary)
+    RenamedColumns = Table.RenameColumns(Source, {{"start_time", "started_at"}, {"end_time", "ended_at"}, {"user_type", "member_casual"}}),
+
+    // Change column types
+    ChangedTypes = Table.TransformColumnTypes(RenamedColumns, {{"started_at", type datetime}, {"ended_at", type datetime}}),
+
+    // Add Trip Duration column (in minutes)
+    AddedTripDuration = Table.AddColumn(ChangedTypes, "trip_duration", each Duration.TotalMinutes([ended_at] - [started_at]), type number),
+
+    // Add Start Hour column
+    AddedStartHour = Table.AddColumn(AddedTripDuration, "start_hour", each DateTime.Hour([started_at]), type number),
+
+    // Add Day of the Week column
+    AddedDayOfWeek = Table.AddColumn(AddedStartHour, "day_of_week", each Date.DayOfWeek([started_at]), type number),
+
+    // Convert Day of the Week to readable format
+    ReplacedDayNumbers = Table.ReplaceValue(AddedDayOfWeek, 0, "Sunday", Replacer.ReplaceValue, {"day_of_week"}),
+    ReplacedDayNumbers1 = Table.ReplaceValue(ReplacedDayNumbers, 1, "Monday", Replacer.ReplaceValue, {"day_of_week"}),
+    ReplacedDayNumbers2 = Table.ReplaceValue(ReplacedDayNumbers1, 2, "Tuesday", Replacer.ReplaceValue, {"day_of_week"}),
+    ReplacedDayNumbers3 = Table.ReplaceValue(ReplacedDayNumbers2, 3, "Wednesday", Replacer.ReplaceValue, {"day_of_week"}),
+    ReplacedDayNumbers4 = Table.ReplaceValue(ReplacedDayNumbers3, 4, "Thursday", Replacer.ReplaceValue, {"day_of_week"}),
+    ReplacedDayNumbers5 = Table.ReplaceValue(ReplacedDayNumbers4, 5, "Friday", Replacer.ReplaceValue, {"day_of_week"}),
+    ReplacedDayNumbers6 = Table.ReplaceValue(ReplacedDayNumbers5, 6, "Saturday", Replacer.ReplaceValue, {"day_of_week"}),
+
+    // Remove unnecessary columns (if needed)
+    FinalTable = Table.SelectColumns(ReplacedDayNumbers6, {"ride_id", "started_at", "ended_at", "trip_duration", "start_hour", "day_of_week", "member_casual"})
+    
+in
+    FinalTable
