@@ -1,6 +1,11 @@
 ## 📊 *Project Overview*
 - *Objective:* Analyze Cyclistic's ride data to boost membership conversion.
-- *Tools Used:* SQL, Power BI, Power Query, Excel.
+
+### **🔧 Tools Used**
+- **SQL** → Data cleaning and transformation.
+- **Power BI** → Visualization and dashboard creation.
+- **Power Query** → Data processing and transformation.
+- **Excel** → Additional analysis and reporting.
 
 ## 📑 *Key Insights*
 - Members use bikes for commuting; casual riders use them for leisure.
@@ -9,13 +14,14 @@
 
 ## 🚀 *Files & Folders*
 ### *1. Data/* 📂
-Contains *raw and processed* data files.
+Contains the dataset used for analysis.  
+⚠ **Note:** The full dataset was **too large to upload**, so only a **sample dataset** has been provided.
 
 ### *2. SQL/* 📂
 SQL scripts for *data cleaning and analysis*.
 
 ### *3. PowerBI/* 📂
-Includes *Power BI dashboards, DAX measures, and Power Query transformations*.
+Includes **Power BI screenshots, a video walkthrough, and Power Query transformations** (full `.pbix` file not uploaded due to size restrictions).
 
 ### *4. Reports/* 📂
 Final *PDF report* 
@@ -30,11 +36,8 @@ Final *PDF report*
 ### *2️⃣ Data/README.md*
 ```markdown
 # 📂 Data Folder
-This folder contains *raw and processed* Cyclistic bike-sharing data.
+This folder contains Cyclistic bike-sharing data.
 
-## 📜 *Files*
-- raw_data.csv → Original dataset before cleaning.
-- processed_data.csv → Cleaned and transformed dataset.
 
 ## 📌 *Data Source*
 Data is publicly available through **[Divvy/Cyclistic Bike Share](https://divvybikes.com/system-data)**.
