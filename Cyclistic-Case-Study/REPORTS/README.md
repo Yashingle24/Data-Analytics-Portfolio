@@ -2,7 +2,7 @@
 This folder contains the final *report and presentation* for Cyclistic.
 
 ## 📜 *Files*
-- Cyclistic_Report.pdf → Detailed findings and recommendations.
+- Cyclistic_m_report.pdf → Detailed findings and recommendations.
 
 ## 📌 *Contents*
 - *Business Problem:* Converting casual riders to members.
