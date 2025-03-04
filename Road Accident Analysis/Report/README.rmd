@@ -1,1 +1,9 @@
+# 📄 Road Accident Report  
+
+This folder contains the **detailed project report** for the **Road Accident Analysis Dashboard**.  
+
+## 📂 File Included  
+- **Road_Accident_Report.pdf** – A comprehensive report covering data analysis, insights, and dashboard details.  
+
+📌 **Refer to this report for a deeper understanding of the project!**  
 
