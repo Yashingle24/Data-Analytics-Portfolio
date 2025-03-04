@@ -1,1 +1,8 @@
+# 📸 Analysis & Visualizations  
+
+This folder contains **screenshots of key project visuals**, including:  
+- **Dashboard Screenshot** – A snapshot of the interactive dashboard.  
+- **Data Analysis Screenshot** – A view of the data analysis sheet.  
+
+📌 **These images showcase the insights derived from the dataset!**  
 
