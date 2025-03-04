@@ -1,1 +1,41 @@
+# Blinkit Sales Analysis
+
+## Overview
+This project analyzes sales data from Blinkit, focusing on key performance indicators such as total sales, average sales, number of items sold, and average customer ratings. The goal is to derive insights into sales trends, item performance, and outlet types.
+
+## Data Source
+- **Sample Dataset** (not uploaded due to size constraints)
+
+## Features
+- **Interactive Dashboard**: Built using Power BI, featuring key sales insights.
+- **Filters**: Users can filter by Outlet Location, Outlet Size, and Item Type.
+- **Key Visualizations**:
+  - Total Sales by Fat Content
+  - Total Sales by Item Type
+  - Fat Content by Outlet for Total Sales
+  - Total Sales by Outlet Establishment
+  - Outlet Size and Type Distribution
+  
+## KPI Requirements
+- **Total Sales**: Overall revenue from all items sold.
+- **Average Sales**: Revenue per sale.
+- **Number of Items**: Total count of different items sold.
+- **Average Rating**: Customer ratings of sold items.
+
+## Dashboard
+A Power BI dashboard has been created to visualize these insights.  
+🖼️ **Screenshot of the Dashboard is provided in the repository.**
+
+## Tools Used
+- **Power BI**: For data visualization.
+- **SQL/Python (if applicable)**: For data processing.
+- **Excel/CSV**: As a data source.
+
+## How to Use
+1. Open the Power BI file to interact with the dashboard.
+2. Apply filters to explore insights.
+3. Analyze sales performance across different outlet types and items.
+
+---
+Let me know if you need modifications! 🚀
 
