@@ -1,10 +1,10 @@
-# 🚗 Road Accident Analysis Dashboard 📊
+# 🚗 Road Accident Analysis Dashboard 📊  
 
-## 📌 Project Overview
+## 📌 Project Overview  
 This project focuses on analyzing **road accident data** using **Advanced Excel** and creating an **interactive dashboard** to gain insights into accident severity, casualties, vehicle types, and road conditions.  
 
-## 🛠️ Tools Used
-- **Microsoft Excel (Advanced Excel)**
+## 🛠️ Tools Used  
+- **Microsoft Excel (Advanced Excel)**  
 - Data Cleaning & Processing  
 - Data Analysis  
 - Pivot Tables & Charts  
@@ -12,7 +12,7 @@ This project focuses on analyzing **road accident data** using **Advanced Excel*
 - KPI Metrics  
 - Interactive Dashboard  
 
-## 📊 Dashboard Features
+## 📊 Dashboard Features  
 The interactive dashboard provides insights into:  
 - **Primary KPIs:**  
   - **Total casualties** after accidents.  
@@ -26,19 +26,19 @@ The interactive dashboard provides insights into:
   - **Distribution** of casualties by **road surface conditions**.  
   - **Relationship** between casualties, area type, and day/night impact.  
 
-## 📂 Project Structure
-📁 Road_Accident_Analysis │-- 📄 Dashboard.xlsx # The main Excel file (Dashboard, Data, Analysis) │-- 📸 Dashboard_Screenshot.png # Screenshot of the interactive dashboard │-- 📸 Data_Analysis_Screenshot.png # Screenshot of the data analysis sheet │-- 📂 docs │ ├── 📄 Project_Report.pdf # Detailed project report │-- 📄 README.md # This file
+## 📂 Project Structure  
+📁 Road_Accident_Analysis
+│-- 📸 Dashboard_Screenshot.png # Screenshot of the interactive dashboard
+│-- 📸 Data_Analysis_Screenshot.png # Screenshot of the data analysis sheet
+│-- 📄 Road_Accident_Report.pdf # Detailed project report
+│-- 📄 README.md # This file
 
-## 📥 How to Use
-1. **Download** the `Dashboard.xlsx` file.  
-2. **Open in Excel** (preferably **Excel 2016 or later** for best compatibility).  
-3. Use the **interactive dashboard** with **filters, slicers, and KPIs**.  
-4. Toggle between **Dashboard** and **Data Analysis** using the built-in icons.  
 
-## 📑 Report
-For a detailed analysis and project breakdown, check the **[Project Report](docs/Project_Report.pdf)**.  
+## 📥 How to Use  
+1. View the **uploaded screenshots** of the dashboard and data analysis sheet.  
+2. **Read the project report** (`Road_Accident_Report.pdf`) for detailed insights.  
 
-## 👥 Stakeholders
+## 👥 Stakeholders  
 - **Ministry of Transport**  
 - **Road Transport Department**  
 - **Police Force**  
@@ -46,12 +46,11 @@ For a detailed analysis and project breakdown, check the **[Project Report](docs
 - **Traffic Management Agencies**  
 - **Public & Media**  
 
-## 💡 Key Takeaways
+## 💡 Key Takeaways  
 - **Data-driven insights** can improve **road safety policies**.  
 - **Visualizing accident trends** helps in **proactive traffic management**.  
 - **Interactive dashboards** enhance **decision-making for stakeholders**.  
 
 ---
 
-🚀 **Feel free to explore and share your feedback!**
-
+🚀 **Feel free to explore and share your feedback!**  
