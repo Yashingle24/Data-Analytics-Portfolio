@@ -1,135 +1,155 @@
-#Netflix SQL Data Analysis
+# 📊 Netflix Data Analysis Project
 
-![Netflix Logo](logo.png)  
+![Project Logo](logo.png)  
 
-## 📌 Objective  
-This project aims to analyze Netflix's dataset to gain insights into content trends, audience preferences, and business strategies using SQL queries.
+## 🎯 Objective  
+This project aims to analyze Netflix's dataset using SQL to extract meaningful insights, solve business problems, and uncover patterns in content distribution.
 
-## 📊 Business Problems & SQL Solutions  
+## 📌 Dataset  
+The dataset consists of various attributes like show ID, type (Movie/TV Show), title, director, cast, country, date added, release year, rating, duration, listed genres, and description.
 
-### 1️⃣ Count the Number of Movies vs TV Shows  
+---
+
+## 🏆 Business Problems & SQL Queries  
+
+### 1️⃣ Count the number of Movies vs TV Shows  
 ```sql
 SELECT type, COUNT(*) as num_of_content
 FROM netflix
 GROUP BY type;
-```
-
-2️⃣ Find the Most Common Rating for Movies and TV Shows
-```sql
+2️⃣ Find the most common rating for movies and TV shows
+sql
+Copy
+Edit
 SELECT type, rating
-FROM (
+FROM 
+(
     SELECT type, rating, COUNT(*),
            RANK() OVER(PARTITION BY type ORDER BY COUNT(*) DESC) AS ranking
     FROM netflix
     GROUP BY 1, 2
 ) AS T1
 WHERE ranking = 1;
-```
-
-3️⃣ List All Movies Released in a Specific Year (e.g., 2019)
-```sql
+3️⃣ List all movies released in a specific year (e.g., 2019)
+sql
+Copy
+Edit
 SELECT * 
 FROM netflix
 WHERE type = 'Movie' AND release_year = 2019;
-```
-
-4️⃣ Find the Top 5 Countries with the Most Content
-```sql
-SELECT DISTINCT TRIM(UNNEST(STRING_TO_ARRAY(country, ','))) AS new_country, COUNT(show_id) AS total_content
+4️⃣ Find the top 5 countries with the most content on Netflix
+sql
+Copy
+Edit
+SELECT DISTINCT TRIM(UNNEST(STRING_TO_ARRAY(country, ','))) AS new_country, 
+       COUNT(show_id) AS total_content
 FROM netflix
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 5;
-```
-
-5️⃣ Identify the Longest Movie
-```sql
+5️⃣ Identify the longest movie
+sql
+Copy
+Edit
 SELECT * 
-FROM (
+FROM 
+(
     SELECT DISTINCT title AS Movie, 
            split_part(duration, ' ', 1)::numeric AS duration
     FROM netflix
     WHERE type = 'Movie'
-) 
+)
 WHERE duration = (SELECT MAX(split_part(duration, ' ', 1)::numeric) FROM netflix);
-```
-
-6️⃣ Find Content Added in the Last 5 Years
-```sql
-SELECT * 
+6️⃣ Find content added in the last 5 years
+sql
+Copy
+Edit
+SELECT *
 FROM netflix
 WHERE TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 Years';
-```
-
-7️⃣ Find All Movies/TV Shows by Director 'Rajiv Chilaka'
-```sql
-SELECT * FROM netflix
+7️⃣ Find all the movies/TV shows by director 'Rajiv Chilaka'
+sql
+Copy
+Edit
+SELECT *
+FROM netflix
 WHERE director ILIKE '%Rajiv Chilaka%';
-```
-
-8️⃣ List All TV Shows with More than 5 Seasons
-```sql
-SELECT * FROM netflix
+8️⃣ List all TV shows with more than 5 seasons
+sql
+Copy
+Edit
+SELECT *
+FROM netflix
 WHERE type = 'TV Show' AND SPLIT_PART(duration, ' ', 1)::numeric > 5;
-```
-
-9️⃣ Count the Number of Content Items in Each Genre
-```sql
-SELECT TRIM(UNNEST(STRING_TO_ARRAY(listed_in, ','))) AS genre, COUNT(show_id) AS num_of_content
+9️⃣ Count the number of content items in each genre
+sql
+Copy
+Edit
+SELECT TRIM(UNNEST(STRING_TO_ARRAY(listed_in, ','))) AS genre, 
+       COUNT(show_id) AS num_of_content
 FROM netflix
 GROUP BY 1
 ORDER BY 1 DESC;
-```
-
-🔟 Find the Average Number of Content Added from India Each Year
-```sql
-SELECT  
-    EXTRACT(YEAR FROM TO_DATE(date_added, 'Month DD, YYYY')) AS year_added,
-    COUNT(show_id) AS total_content,
-    COUNT(show_id) / (SELECT COUNT(DISTINCT EXTRACT(YEAR FROM TO_DATE(date_added, 'Month DD, YYYY'))) 
-                      FROM netflix 
-                      WHERE country ILIKE '%India%') AS avg_content
+🔟 Find each year and the average number of content added from India
+sql
+Copy
+Edit
+SELECT EXTRACT(YEAR FROM TO_DATE(date_added, 'Month DD, YYYY')) AS year_added,
+       COUNT(show_id) AS total_content,
+       COUNT(show_id) / (SELECT COUNT(DISTINCT EXTRACT(YEAR FROM TO_DATE(date_added, 'Month DD, YYYY'))) 
+                         FROM netflix 
+                         WHERE country ILIKE '%India%') AS avg_content
 FROM netflix
 WHERE country ILIKE '%India%'
 GROUP BY year_added
 ORDER BY year_added DESC;
-```
-
-🏆 Additional Insights
-
-✅ Top 5 Directors with the Most Content in India
-
-```sql
-SELECT director, COUNT(show_id) AS total_content
-FROM netflix
-WHERE country ILIKE '%India%' AND director IS NOT NULL
-GROUP BY 1
-ORDER BY 2 DESC
-LIMIT 5;
-```
-
-✅ Top 10 Actors Who Appeared in Most Indian Movies
-
-```sql
-SELECT TRIM(UNNEST(STRING_TO_ARRAY(casts, ','))) AS actors, COUNT(show_id) AS total_appearance
+📌 Additional Queries
+🎬 Find the top 10 actors who have appeared in the highest number of movies produced in India
+sql
+Copy
+Edit
+SELECT TRIM(UNNEST(STRING_TO_ARRAY(casts, ','))) AS actors, 
+       COUNT(show_id) AS total_appearance
 FROM netflix
 WHERE country LIKE '%India%'
 GROUP BY actors
 ORDER BY 2 DESC
 LIMIT 10;
-```
-
-✅ Categorizing Content as 'Good' or 'Bad' Based on Keywords
-
-```sql
+🎭 Categorize content based on the presence of keywords 'kill' and 'violence' in the description
+sql
+Copy
+Edit
 SELECT CASE 
-       WHEN description ILIKE '%kill%' OR description ILIKE '%violence%' THEN 'Bad'
-       ELSE 'Good'
+           WHEN description ILIKE '%kill%' OR description ILIKE '%violence%' THEN 'Bad'
+           ELSE 'Good'
        END AS Category,
        COUNT(show_id) AS total_content
 FROM netflix
 GROUP BY 1;
-```
+⏳ Find the longest-running TV shows in each genre (Top 10 by seasons)
+sql
+Copy
+Edit
+SELECT TRIM(UNNEST(STRING_TO_ARRAY(listed_in, ','))) AS genre,
+       title AS TV_show_name,
+       CONCAT(round(MAX(split_part(duration, ' ', 1)::numeric), 2), ' ', 'seasons')
+FROM netflix
+WHERE type = 'TV Show'
+GROUP BY 1, 2
+ORDER BY 3 DESC
+LIMIT 10;
+📢 Conclusion
+This project helps in understanding content trends on Netflix, including the most popular genres, ratings, countries with the most content, longest-running shows, and patterns in content addition over the years.
 
-📌 Conclusion
-This SQL project provides valuable insights into Netflix content, helping businesses understand viewing trends, popular genres, and content distribution across regions. 🚀
+✅ SQL techniques used:
+
+Aggregations (COUNT, MAX, AVG)
+String functions (SPLIT_PART, TRIM, ILIKE)
+Window functions (RANK() OVER())
+Data filtering (WHERE, GROUP BY, ORDER BY)
+📌 Future Enhancements:
+
+Visualization using Tableau/Power BI
+Integration with Python for deeper analysis
+🚀 Developed by: [Your Name]
+📧 Contact: [Your Email]
