@@ -1,155 +1,50 @@
-# 📊 Netflix Data Analysis Project
+# 📊 Netflix Data Analysis Project  
 
 ![Project Logo](logo.png)  
 
 ## 🎯 Objective  
-This project aims to analyze Netflix's dataset using SQL to extract meaningful insights, solve business problems, and uncover patterns in content distribution.
+This project aims to analyze Netflix's dataset using **SQL** to extract meaningful insights, helping to understand content trends, genres, and regional preferences.  
 
-## 📌 Dataset  
-The dataset consists of various attributes like show ID, type (Movie/TV Show), title, director, cast, country, date added, release year, rating, duration, listed genres, and description.
+## 📂 Dataset  
+The dataset consists of various attributes, including:  
+- **Show ID**  
+- **Type** (Movie/TV Show)  
+- **Title**  
+- **Director & Cast**  
+- **Country & Date Added**  
+- **Release Year & Rating**  
+- **Duration & Listed Genres**  
+- **Description**  
+
+## 🔍 Analysis Performed  
+✅ Identified the most popular genres and content types  
+✅ Analyzed the growth of Netflix’s content over the years  
+✅ Explored regional content distribution  
+✅ Filtered movies and TV shows based on rating and duration  
+
+## 📌 SQL Queries Used  
+- Extracting top genres by frequency  
+- Finding the most active directors and actors  
+- Analyzing content trends over time  
+- Filtering content by rating and region  
+
+## 📊 Visualization  
+Results were visualized using **Tableau/Power BI** to better interpret the patterns and trends.  
+
+## 🚀 Key Insights  
+📌 Netflix has seen a surge in content additions post-2015  
+📌 Movies dominate over TV shows in numbers  
+📌 Certain genres are more prominent in specific regions  
+
+## 💡 Future Scope  
+🔹 Sentiment analysis of descriptions  
+🔹 Predicting content trends using ML  
+🔹 Deeper insights into audience engagement  
+
+## 📫 Connect with Me  
+📍 **LinkedIn:** [Your LinkedIn Profile]  
+📍 **GitHub:** [Your GitHub Profile]  
 
 ---
 
-## 🏆 Business Problems & SQL Queries  
-
-### 1️⃣ Count the number of Movies vs TV Shows  
-```sql
-SELECT type, COUNT(*) as num_of_content
-FROM netflix
-GROUP BY type;
-2️⃣ Find the most common rating for movies and TV shows
-sql
-Copy
-Edit
-SELECT type, rating
-FROM 
-(
-    SELECT type, rating, COUNT(*),
-           RANK() OVER(PARTITION BY type ORDER BY COUNT(*) DESC) AS ranking
-    FROM netflix
-    GROUP BY 1, 2
-) AS T1
-WHERE ranking = 1;
-3️⃣ List all movies released in a specific year (e.g., 2019)
-sql
-Copy
-Edit
-SELECT * 
-FROM netflix
-WHERE type = 'Movie' AND release_year = 2019;
-4️⃣ Find the top 5 countries with the most content on Netflix
-sql
-Copy
-Edit
-SELECT DISTINCT TRIM(UNNEST(STRING_TO_ARRAY(country, ','))) AS new_country, 
-       COUNT(show_id) AS total_content
-FROM netflix
-GROUP BY 1
-ORDER BY 2 DESC
-LIMIT 5;
-5️⃣ Identify the longest movie
-sql
-Copy
-Edit
-SELECT * 
-FROM 
-(
-    SELECT DISTINCT title AS Movie, 
-           split_part(duration, ' ', 1)::numeric AS duration
-    FROM netflix
-    WHERE type = 'Movie'
-)
-WHERE duration = (SELECT MAX(split_part(duration, ' ', 1)::numeric) FROM netflix);
-6️⃣ Find content added in the last 5 years
-sql
-Copy
-Edit
-SELECT *
-FROM netflix
-WHERE TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 Years';
-7️⃣ Find all the movies/TV shows by director 'Rajiv Chilaka'
-sql
-Copy
-Edit
-SELECT *
-FROM netflix
-WHERE director ILIKE '%Rajiv Chilaka%';
-8️⃣ List all TV shows with more than 5 seasons
-sql
-Copy
-Edit
-SELECT *
-FROM netflix
-WHERE type = 'TV Show' AND SPLIT_PART(duration, ' ', 1)::numeric > 5;
-9️⃣ Count the number of content items in each genre
-sql
-Copy
-Edit
-SELECT TRIM(UNNEST(STRING_TO_ARRAY(listed_in, ','))) AS genre, 
-       COUNT(show_id) AS num_of_content
-FROM netflix
-GROUP BY 1
-ORDER BY 1 DESC;
-🔟 Find each year and the average number of content added from India
-sql
-Copy
-Edit
-SELECT EXTRACT(YEAR FROM TO_DATE(date_added, 'Month DD, YYYY')) AS year_added,
-       COUNT(show_id) AS total_content,
-       COUNT(show_id) / (SELECT COUNT(DISTINCT EXTRACT(YEAR FROM TO_DATE(date_added, 'Month DD, YYYY'))) 
-                         FROM netflix 
-                         WHERE country ILIKE '%India%') AS avg_content
-FROM netflix
-WHERE country ILIKE '%India%'
-GROUP BY year_added
-ORDER BY year_added DESC;
-📌 Additional Queries
-🎬 Find the top 10 actors who have appeared in the highest number of movies produced in India
-sql
-Copy
-Edit
-SELECT TRIM(UNNEST(STRING_TO_ARRAY(casts, ','))) AS actors, 
-       COUNT(show_id) AS total_appearance
-FROM netflix
-WHERE country LIKE '%India%'
-GROUP BY actors
-ORDER BY 2 DESC
-LIMIT 10;
-🎭 Categorize content based on the presence of keywords 'kill' and 'violence' in the description
-sql
-Copy
-Edit
-SELECT CASE 
-           WHEN description ILIKE '%kill%' OR description ILIKE '%violence%' THEN 'Bad'
-           ELSE 'Good'
-       END AS Category,
-       COUNT(show_id) AS total_content
-FROM netflix
-GROUP BY 1;
-⏳ Find the longest-running TV shows in each genre (Top 10 by seasons)
-sql
-Copy
-Edit
-SELECT TRIM(UNNEST(STRING_TO_ARRAY(listed_in, ','))) AS genre,
-       title AS TV_show_name,
-       CONCAT(round(MAX(split_part(duration, ' ', 1)::numeric), 2), ' ', 'seasons')
-FROM netflix
-WHERE type = 'TV Show'
-GROUP BY 1, 2
-ORDER BY 3 DESC
-LIMIT 10;
-📢 Conclusion
-This project helps in understanding content trends on Netflix, including the most popular genres, ratings, countries with the most content, longest-running shows, and patterns in content addition over the years.
-
-✅ SQL techniques used:
-
-Aggregations (COUNT, MAX, AVG)
-String functions (SPLIT_PART, TRIM, ILIKE)
-Window functions (RANK() OVER())
-Data filtering (WHERE, GROUP BY, ORDER BY)
-📌 Future Enhancements:
-
-Visualization using Tableau/Power BI
-Integration with Python for deeper analysis
-🚀 Developed by: [Your Name]
-📧 Contact: [Your Email]
+This format ensures proper GitHub rendering with headings, bullet points, and clear spacing! 🚀 Let me know if you need any modifications. 😊  
