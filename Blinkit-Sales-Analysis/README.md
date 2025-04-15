@@ -1,4 +1,9 @@
 # 🛒 Blinkit Sales Analysis  
+---
+
+![Project Logo](logo.png)  
+
+---
 
 ## 📝 Project Overview  
 This **Blinkit Sales Analysis Dashboard** provides insights into sales trends, item performance, and outlet distribution, helping businesses optimize sales strategies.  
