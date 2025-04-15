@@ -23,6 +23,16 @@ The dataset includes the following key attributes:
 
 ---
 
+## 📁 **Project Files Included**  
+This folder contains:  
+- 🧽 **Data Cleaning Report**  
+- 🧾 **SQL File** with all analysis queries  
+- 📊 **Interactive Dashboard** created using **Tableau**  
+- 📄 **Cleaned Netflix Dataset** (CSV format)  
+- 🖼️ **Screenshot of the Final Dashboard**
+
+---
+
 ## 🔍 **Analysis Performed**  
 ✅ Identified the **most popular genres** and **content types**  
 ✅ Analyzed the **growth of Netflix content** over the years  
@@ -40,7 +50,7 @@ The dataset includes the following key attributes:
 ---
 
 ## 📊 **Visualization**  
-The insights were visualized using **Tableau** and **Power BI**, enabling clear interpretation of patterns and trends.
+The insights were visualized using **Tableau**, allowing for an interactive view of trends and patterns.
 
 ---
 
@@ -60,3 +70,4 @@ The insights were visualized using **Tableau** and **Power BI**, enabling clear 
 
 ## 📫 **Connect with Me**  
 🔗 **LinkedIn:** [www.linkedin.com/in/yashingle24](https://www.linkedin.com/in/yashingle24)
+
