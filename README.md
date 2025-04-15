@@ -65,7 +65,6 @@ Used *time series analysis* to forecast sales and drive business success.
 
 🛠️ **Tools Used:** Power BI, Time Series Analysis  
 📂 **Folder:** `Superstore-Sales-Analysis`  
-🔗 **Dashboard Preview:** [View Project](Superstore-Sales-Analysis/)  
 
 ---
 
@@ -75,7 +74,6 @@ Helped an organization *reduce attrition* and *improve workforce productivity*.
 
 🛠️ **Tools Used:** Power BI, HR Analytics  
 📂 **Folder:** `HR Analytics`  
-🔗 **Dashboard Preview:** [View Project](HR Analytics/)  
 
 ---
 
@@ -85,7 +83,6 @@ Created an *interactive dashboard* to analyze online sales performance.
 
 🛠️ **Tools Used:** Tableau, SQL  
 📂 **Folder:** `E-Commerce-Sales`  
-🔗 **Dashboard Preview:** [View Project](E-Commerce-Sales/)  
 
 ---
 
