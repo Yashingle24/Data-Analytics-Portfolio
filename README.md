@@ -17,8 +17,7 @@ Analyze Cyclistic's ride data to boost membership conversion.
 - Power BI → Visualization and dashboard creation  
 - Power Query → Data processing and transformation  
 - Excel → Additional analysis and reporting  
-
-📂 **Folder:** `Cyclistic-Case-Study`  
+ 
 
 ---
 
@@ -26,8 +25,7 @@ Analyze Cyclistic's ride data to boost membership conversion.
 📊 **Objective:**  
 Analyze Netflix's dataset using SQL to extract insights about content trends, popular genres, and regional preferences — and visualize findings with Tableau.  
 
-🛠️ **Tools Used:** Excel, SQL, Tableau  
-📂 **Folder:** `Netflix_-SQL-project`  
+🛠️ **Tools Used:** Excel, SQL, Tableau    
 
 ---
 
@@ -40,8 +38,7 @@ Analyze Netflix's dataset using SQL to extract insights about content trends, po
 🛠️ **Tools & Technologies:**  
 - Power BI → Data Visualization  
 - Excel/CSV → Data Processing  
-
-📂 **Folder:** `Blinkit-Sales-Analysis`  
+  
 
 ---
 
@@ -54,8 +51,7 @@ Analyze road accident data using Advanced Excel to gain insights into accident s
 - Pivot Tables, Charts, Slicers, Filters  
 - KPI Metrics  
 - Interactive Dashboard  
-
-📂 **Folder:** `Road Accident Analysis`  
+  
 
 ---
 
@@ -63,8 +59,7 @@ Analyze road accident data using Advanced Excel to gain insights into accident s
 📊 **Objective:**  
 Used *time series analysis* to forecast sales and drive business success.  
 
-🛠️ **Tools Used:** Power BI, Time Series Analysis  
-📂 **Folder:** `Superstore-Sales-Analysis`  
+🛠️ **Tools Used:** Power BI, Time Series Analysis    
 
 ---
 
@@ -72,8 +67,7 @@ Used *time series analysis* to forecast sales and drive business success.
 📊 **Objective:**  
 Helped an organization *reduce attrition* and *improve workforce productivity*.  
 
-🛠️ **Tools Used:** Power BI, HR Analytics  
-📂 **Folder:** `HR Analytics`  
+🛠️ **Tools Used:** Power BI, HR Analytics   
 
 ---
 
@@ -82,7 +76,6 @@ Helped an organization *reduce attrition* and *improve workforce productivity*.
 Created an *interactive dashboard* to analyze online sales performance.  
 
 🛠️ **Tools Used:** Tableau, SQL  
-📂 **Folder:** `E-Commerce-Sales`  
 
 ---
 
