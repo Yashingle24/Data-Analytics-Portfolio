@@ -36,17 +36,17 @@ The analysis is based on a database named `ola_db`, containing the primary table
 
 ---
 
-## 📌 Folder Contents
-This project folder includes:
-
-Ola_Ride_SQL_Queries.sql – SQL views and business logic
-Ola_Ride_Dashboard.pbix – Power BI dashboard
-Screenshots/ – Visuals of key dashboard pages
-ola_bookings_data.csv – Raw data used for analysis
-Ola_Ride_Project_Report.pdf – Complete project report
-README.md – Project overview and documentation 
+## 📌 Folder Contents  
+This project folder includes:  
+- `Ola_Ride_SQL_Queries.sql` – SQL views and business logic  
+- `Ola_Ride_Dashboard.pbix` – Power BI dashboard  
+- `Screenshots/` – Visuals of key dashboard pages  
+- `ola_bookings_data.csv` – Raw data used for analysis  
+- `Ola_Ride_Project_Report.pdf` – Complete project report  
+- `README.md` – Project overview and documentation  
 
 ---
+
 
 ## 📈 Insights Summary  
 - UPI is the most preferred payment method  
