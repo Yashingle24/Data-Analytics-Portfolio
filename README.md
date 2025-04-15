@@ -2,50 +2,98 @@
 
 🚀 *Aspiring Data Analyst* | SQL | Tableau | Power BI | R | Data Visualization  
 
-Welcome to my *Data Analytics Portfolio, where I showcase projects focused on **business intelligence, dashboarding, and data-driven decision-making. I specialize in transforming raw data into meaningful insights using **Power BI, Tableau, and SQL*.  
+Welcome to my *Data Analytics Portfolio*, where I showcase projects focused on **business intelligence**, **dashboarding**, and **data-driven decision-making**. I specialize in transforming raw data into meaningful insights using **Power BI**, **Tableau**, and **SQL**.
 
 ---
 
 ## 📁 *Projects*  
 
-### *📌 1. Superstore Sales Analysis & Forecasting* (Power BI)  
-📊 *Objective:* Used *time series analysis* to forecast sales and drive business success.  
-🔍 *Key Insights:*  
-✔️ Identified top-performing *payment modes, regions, customer segments, and product categories*.  
-✔️ Analyzed *monthly sales trends* and *shipping mode impact*.  
-✔️ Forecasted *next 15 days of sales* using predictive modeling.  
-📂 *Tools Used:* Power BI, Time Series Analysis  
-🔗 *Dashboard Preview:* [View Project](Superstore-Sales-Analysis/)  
+### 📌 1. Cyclistic Case Study  
+📊 **Objective:**  
+Analyze Cyclistic's ride data to boost membership conversion.  
+
+🛠️ **Tools Used:**  
+- SQL → Data cleaning and transformation  
+- Power BI → Visualization and dashboard creation  
+- Power Query → Data processing and transformation  
+- Excel → Additional analysis and reporting  
+
+📂 **Folder:** `Cyclistic-Case-Study`  
 
 ---
 
-### *📌 2. HR Analytics Dashboard* (Power BI)  
-📊 *Objective:* Helped an organization *reduce attrition* and *improve workforce productivity*.  
-🔍 *Key Insights:*  
-✔️ Identified *age groups, education levels, and job roles* with high attrition.  
-✔️ Provided *data-driven hiring recommendations* to improve retention.  
-✔️ Suggested *employee engagement strategies* to build trust and satisfaction.  
-📂 *Tools Used:* Power BI, HR Analytics  
-🔗 *Dashboard Preview:* [View Project](HR Analytics/)  
+### 📌 2. Netflix Data Analysis Project  
+📊 **Objective:**  
+Analyze Netflix's dataset using SQL to extract insights about content trends, popular genres, and regional preferences — and visualize findings with Tableau.  
+
+🛠️ **Tools Used:** Excel, SQL, Tableau  
+📂 **Folder:** `Netflix_-SQL-project`  
 
 ---
 
-### *📌 3. E-Commerce Sales Dashboard* (Tableau)  
-📊 *Objective:* Created an *interactive dashboard* to analyze online sales performance.  
-🔍 *Key Features:*  
-✔️ Drill-down analysis using *custom filters and slicers*.  
-✔️ Used *data connections, joins, and calculated fields* for advanced analysis.  
-✔️ Enabled *user-driven parameters* for dynamic insights.  
-📂 *Tools Used:* Tableau, SQL  
-🔗 *Dashboard Preview:* [View Project](E-Commerce-Sales/)  
+### 📌 3. Blinkit Sales Analysis  
+📊 **Objective:**  
+- Analyze total sales, average sales, item distribution, and customer ratings  
+- Identify sales trends by item type, outlet type, and fat content  
+- Enable data-driven decision-making for better sales performance  
+
+🛠️ **Tools & Technologies:**  
+- Power BI → Data Visualization  
+- Excel/CSV → Data Processing  
+
+📂 **Folder:** `Blinkit-Sales-Analysis`  
+
+---
+
+### 📌 4. Road Accident Analysis  
+📊 **Objective:**  
+Analyze road accident data using Advanced Excel to gain insights into accident severity, casualties, vehicle types, and road conditions.  
+
+🛠️ **Tools Used:** Microsoft Excel  
+- Data Cleaning & Processing  
+- Pivot Tables, Charts, Slicers, Filters  
+- KPI Metrics  
+- Interactive Dashboard  
+
+📂 **Folder:** `Road Accident Analysis`  
+
+---
+
+### 📌 5. Superstore Sales Analysis & Forecasting (Power BI)  
+📊 **Objective:**  
+Used *time series analysis* to forecast sales and drive business success.  
+
+🛠️ **Tools Used:** Power BI, Time Series Analysis  
+📂 **Folder:** `Superstore-Sales-Analysis`  
+🔗 **Dashboard Preview:** [View Project](Superstore-Sales-Analysis/)  
+
+---
+
+### 📌 6. HR Analytics Dashboard (Power BI)  
+📊 **Objective:**  
+Helped an organization *reduce attrition* and *improve workforce productivity*.  
+
+🛠️ **Tools Used:** Power BI, HR Analytics  
+📂 **Folder:** `HR Analytics`  
+🔗 **Dashboard Preview:** [View Project](HR Analytics/)  
+
+---
+
+### 📌 7. E-Commerce Sales Dashboard (Tableau)  
+📊 **Objective:**  
+Created an *interactive dashboard* to analyze online sales performance.  
+
+🛠️ **Tools Used:** Tableau, SQL  
+📂 **Folder:** `E-Commerce-Sales`  
+🔗 **Dashboard Preview:** [View Project](E-Commerce-Sales/)  
 
 ---
 
 ## 📬 *Connect With Me*  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/yash-ingle-705a91302/)  
-- 📧 yashingle.work@gmail.com   
+- 🔗 [LinkedIn](https://www.linkedin.com/in/yashingle24)  
+- 📧 yashingle.work@gmail.com  
 - 💻 [Medium Blog (Coming Soon)](#)  
 
 ---
 
-⭐ *If you find my work useful, feel free to star this repository!*
+⭐ *If you find my work useful, feel free to star this repository!*  
