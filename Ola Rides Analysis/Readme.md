@@ -1,7 +1,8 @@
 # 🚗 Ola Ride Analytics Project
-
+---
 ![Project Logo](logo.png)
 
+---
 ## 🎯 Objective  
 This project aims to analyze Ola’s ride booking data using SQL. It focuses on successful bookings, customer behavior, ride statistics, and the reasons behind cancellations and incomplete rides. The goal is to uncover actionable insights that support better decision-making.
 
