@@ -21,7 +21,7 @@ This **Blinkit Sales Analysis Dashboard** provides insights into sales trends, i
 ## 📂 Tools & Technologies  
 - **Power BI** 🔹 **Data Visualization**  
 - **Excel/CSV** 🔹 **Data Processing**  
-- **SQL/Python (if applicable)**  
+  
 
 ## 📊 Dashboard  
 A **Power BI dashboard** has been created for visualization.  
