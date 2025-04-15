@@ -17,7 +17,6 @@ Analyze Cyclistic's ride data to boost membership conversion.
 - Power BI → Visualization and dashboard creation  
 - Power Query → Data processing and transformation  
 - Excel → Additional analysis and reporting  
- 
 
 ---
 
@@ -38,11 +37,22 @@ Analyze Netflix's dataset using SQL to extract insights about content trends, po
 🛠️ **Tools & Technologies:**  
 - Power BI → Data Visualization  
 - Excel/CSV → Data Processing  
-  
 
 ---
 
-### 📌 4. Road Accident Analysis  
+### 📌 4. Ola Ride Analytics Project  
+📊 **Objective:**  
+Analyzed Ola ride data to explore ride booking trends, cancellations, and payment patterns.  
+ 
+🛠️ **Tools Used:**  
+- SQL → Data Analysis & Views  
+- Power BI → Interactive Dashboard (`OLA DASH`)  
+- Excel → Insight Reporting  
+- CSV → Raw Data Handling  
+
+---
+
+### 📌 5. Road Accident Analysis  
 📊 **Objective:**  
 Analyze road accident data using Advanced Excel to gain insights into accident severity, casualties, vehicle types, and road conditions.  
 
@@ -51,11 +61,10 @@ Analyze road accident data using Advanced Excel to gain insights into accident s
 - Pivot Tables, Charts, Slicers, Filters  
 - KPI Metrics  
 - Interactive Dashboard  
-  
 
 ---
 
-### 📌 5. Superstore Sales Analysis & Forecasting (Power BI)  
+### 📌 6. Superstore Sales Analysis & Forecasting (Power BI)  
 📊 **Objective:**  
 Used *time series analysis* to forecast sales and drive business success.  
 
@@ -63,7 +72,7 @@ Used *time series analysis* to forecast sales and drive business success.
 
 ---
 
-### 📌 6. HR Analytics Dashboard (Power BI)  
+### 📌 7. HR Analytics Dashboard (Power BI)  
 📊 **Objective:**  
 Helped an organization *reduce attrition* and *improve workforce productivity*.  
 
@@ -71,7 +80,7 @@ Helped an organization *reduce attrition* and *improve workforce productivity*.
 
 ---
 
-### 📌 7. E-Commerce Sales Dashboard (Tableau)  
+### 📌 8. E-Commerce Sales Dashboard (Tableau)  
 📊 **Objective:**  
 Created an *interactive dashboard* to analyze online sales performance.  
 
@@ -87,3 +96,5 @@ Created an *interactive dashboard* to analyze online sales performance.
 ---
 
 ⭐ *If you find my work useful, feel free to star this repository!*  
+
+--- 
