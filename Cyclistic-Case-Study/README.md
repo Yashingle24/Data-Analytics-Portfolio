@@ -1,7 +1,3 @@
-Here’s the updated version with the **Data folder removed** and a new **PPT folder** section added, reflecting your latest structure:
-
----
-
 ## 📊 *Project Overview*
 - *Objective:* Analyze Cyclistic's ride data to boost membership conversion.
 - *Context:* This project was assigned as part of the **Google Data Analytics Professional Certificate** capstone case study. The goal is to uncover insights that can help **convert casual riders into annual members**.
@@ -64,5 +60,3 @@ The data used in this project was made publicly available by **Motivate Internat
 - Cyclistic Data Analytics Team (case study context)
 
 ---
-
-Let me know if you want to add your **LinkedIn/GitHub links**, or make it suitable for **README format** on GitHub!
