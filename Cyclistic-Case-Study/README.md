@@ -1,8 +1,10 @@
 # 🚴‍♂️ Cyclistic Bike-Share Data Analysis | Google Data Analytics Capstone Project
 ---
-![Project Logo](logo.png)  
-
+<p align="center">
+  <img src="logo.png" alt="Project Logo"/>
+</p>
 ---
+
 
 ## 📊 *Project Overview*
 - *Objective:* Analyze Cyclistic's ride data to boost membership conversion.  
