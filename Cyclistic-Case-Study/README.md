@@ -1,5 +1,7 @@
+# 🚴‍♂️ Cyclistic Bike-Share Data Analysis | Google Data Analytics Capstone Project
+
 ## 📊 *Project Overview*
-- *Objective:* Analyze Cyclistic's ride data to boost membership conversion.
+- *Objective:* Analyze Cyclistic's ride data to boost membership conversion.  
 - *Context:* This project was assigned as part of the **Google Data Analytics Professional Certificate** capstone case study. The goal is to uncover insights that can help **convert casual riders into annual members**.
 
 ---
@@ -25,10 +27,10 @@ Rather than focusing on acquiring new customers, she wants to **target existing 
 ---
 
 ## 🔧 *Tools Used*
-- **SQL** → For data cleaning and transformation.  
-- **Power BI** → For dashboards and visualizations.  
-- **Power Query** → For processing and shaping data.  
-- **Excel** → For supporting calculations and analysis.
+- **SQL** → For data cleaning and transformation  
+- **Power BI** → For dashboards and visualizations  
+- **Power Query** → For processing and shaping data  
+- **Excel** → For supporting calculations and analysis  
 
 ---
 
