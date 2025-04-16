@@ -38,11 +38,13 @@ Rather than focusing on acquiring new customers, she wants to **target existing 
 SQL scripts used for **data cleaning** and **analysis**.
 
 ### *2. PowerBI/* 📂  
-Includes **screenshots**, a **video walkthrough**, and **Power Query transformations**.  
-⚠ Full `.pbix` file **not uploaded** due to file size restrictions.
+Includes **dashboard screenshots**, a **video walkthrough**, and **Power Query transformations**.  
+⚠ Full `.pbix` file **not uploaded** due to file size restrictions.  
+> 📌 **Note:** The **Power BI dashboard visuals are different from the visuals used in the presentation**—both were created independently and are effective in their own way.
 
 ### *3. PPT/* 📂  
-Contains the **PowerPoint presentation** used to summarize the project findings for stakeholders.
+Contains the **PowerPoint presentation** used to summarize the project findings for stakeholders.  
+> 🎯 **Note:** The presentation includes **unique charts and visualizations** tailored for stakeholder engagement.
 
 ### *4. Reports/* 📂  
 Final **PDF report** with detailed analysis and conclusions.
@@ -56,7 +58,7 @@ The data used in this project was made publicly available by **Motivate Internat
 ---
 
 ## 👥 *Contributors*
-- **Yash Ingle**
+- **Yash Ingle**  
 - Cyclistic Data Analytics Team (case study context)
 
 ---
