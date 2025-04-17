@@ -4,6 +4,7 @@
   <img src="logo.png" alt="Project Logo"/>
 </p>
 ---
+
 ![SQL](https://img.shields.io/badge/SQL-Used-blue?logo=postgresql)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
 ---
