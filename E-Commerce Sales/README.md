@@ -1,5 +1,8 @@
 # 🛒 E-Commerce Sales Dashboard  
 
+![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
+---
+
 ## 📝 Project Overview  
 This *E-Commerce Sales Dashboard* provides an *interactive visualization* of online sales data to track performance and enhance decision-making.  
 
@@ -20,6 +23,6 @@ This *E-Commerce Sales Dashboard* provides an *interactive visualization* of onl
  
 
 ## 📂 Tools & Technologies  
-- *Tableau / Power BI*  
+- *Power BI*  
 - *Data Visualization & Analysis*  
 - *E-Commerce Metrics & Trends*
