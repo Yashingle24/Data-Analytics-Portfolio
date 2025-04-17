@@ -1,5 +1,8 @@
 # 🚗 Road Accident Analysis Dashboard 📊  
 
+---
+![Excel](https://img.shields.io/badge/Excel-Used-blue?logo=microsoft-excel)
+---
 ## 📌 Project Overview  
 This project focuses on analyzing **road accident data** using **Advanced Excel** and creating an **interactive dashboard** to gain insights into accident severity, casualties, vehicle types, and road conditions.  
 
