@@ -24,15 +24,15 @@ Welcome to my *Data Analytics Portfolio*, where I showcase projects focused on *
 A collection of projects leveraging **Python** for data cleaning, exploratory data analysis (EDA), and visualization. These projects showcase the use of **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, and more.
 
 **CONTENTS**
-- `Airbnb Analysis Project` → A data analysis project using Python.
-- `Walmart Data Analysis Project` → A data analysis project using SQL & Python
+- [`Airbnb Analysis Project`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects/AIRBNB) → A data analysis project using Python.
+- [`Walmart Data Analysis Project`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects/Walmart%20Data%20Analysis) → A data analysis project using SQL & Python
 
 Feel free to explore through jupyter notebooks within.
 
 ---
 
 ### 📌 2. Cyclistic Case Study  
-📂 **Folder:** [`Cyclistic Case Study`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Cyclistic%20Case%20Study)  
+📂 **Folder:** [`Cyclistic Case Study`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Cyclistic-Case-Study)  
 📊 **Objective:**  
 Analyze Cyclistic's ride data to boost membership conversion.  
 
@@ -45,7 +45,7 @@ Analyze Cyclistic's ride data to boost membership conversion.
 ---
 
 ### 📌 3. Netflix Data Analysis Project  
-📂 **Folder:** [`Netflix Data Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Netflix%20Data%20Analysis)  
+📂 **Folder:** [`Netflix Data Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Netflix_-SQL-project)  
 📊 **Objective:**  
 Analyze Netflix's dataset using SQL to extract insights about content trends, popular genres, and regional preferences — and visualize findings with Tableau.  
 
@@ -54,7 +54,7 @@ Analyze Netflix's dataset using SQL to extract insights about content trends, po
 ---
 
 ### 📌 4. Blinkit Sales Analysis  
-📂 **Folder:** [`Blinkit Sales Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Blinkit%20Sales%20Analysis)  
+📂 **Folder:** [`Blinkit Sales Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Blinkit-Sales-Analysis)  
 📊 **Objective:**  
 - Analyze total sales, average sales, item distribution, and customer ratings  
 - Identify sales trends by item type, outlet type, and fat content  
@@ -67,7 +67,7 @@ Analyze Netflix's dataset using SQL to extract insights about content trends, po
 ---
 
 ### 📌 5. Ola Ride Analytics Project  
-📂 **Folder:** [`Ola Ride Analytics`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Ola%20Ride%20Analytics)  
+📂 **Folder:** [`Ola Ride Analytics`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Ola%20Rides%20Analysis)  
 📊 **Objective:**  
 Analyzed Ola ride data to explore ride booking trends, cancellations, and payment patterns.  
  
@@ -93,7 +93,7 @@ Analyze road accident data using Advanced Excel to gain insights into accident s
 ---
 
 ### 📌 7. Superstore Sales Analysis & Forecasting (Power BI)  
-📂 **Folder:** [`Superstore Sales Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Superstore%20Sales%20Analysis%20&%20Forecasting)  
+📂 **Folder:** [`Superstore Sales Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Superstore%20Sales%20Analysis)  
 📊 **Objective:**  
 Used *time series analysis* to forecast sales and drive business success.  
 
@@ -102,7 +102,7 @@ Used *time series analysis* to forecast sales and drive business success.
 ---
 
 ### 📌 8. HR Analytics Dashboard (Power BI)  
-📂 **Folder:** [`HR Analytics Dashboard`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/HR%20Analytics%20Dashboard)  
+📂 **Folder:** [`HR Analytics Dashboard`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/HR%20Analytics)  
 📊 **Objective:**  
 Helped an organization *reduce attrition* and *improve workforce productivity*.  
 
@@ -111,7 +111,7 @@ Helped an organization *reduce attrition* and *improve workforce productivity*.
 ---
 
 ### 📌 9. E-Commerce Sales Dashboard (Tableau)  
-📂 **Folder:** [`E-Commerce Sales Dashboard`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/E-Commerce%20Sales%20Dashboard)  
+📂 **Folder:** [`E-Commerce Sales Dashboard`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/E-Commerce%20Sales)  
 📊 **Objective:**  
 Created an *interactive dashboard* to analyze online sales performance.  
 
