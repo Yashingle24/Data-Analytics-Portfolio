@@ -1,4 +1,7 @@
-# 📊 Superstore Sales Analysis Dashboard  
+# 📊 Superstore Sales Analysis Dashboard 
+---
+![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
+---
 
 ## 📝 Project Overview  
 This project analyzes *Superstore's sales data* over multiple years using *Power BI. The goal is to provide **data-driven insights* and *forecast future sales* to support business growth.  
