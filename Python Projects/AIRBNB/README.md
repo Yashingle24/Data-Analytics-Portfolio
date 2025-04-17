@@ -106,13 +106,6 @@ This project folder contains the following files:
 
 ---
 
-## Future Work  
-- Use **machine learning** to predict prices based on room type and location.  
-- Perform **sentiment analysis** on reviews to better understand guest experiences.  
-- Create an **interactive dashboard** using Plotly or Tableau for live monitoring.  
-
----
-
 ## Conclusion  
 This project offers valuable insights into the New York Airbnb market, helping both guests and hosts make informed decisions. By using **EDA techniques**, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and predictive modeling to further enhance the findings.  
 
@@ -121,7 +114,7 @@ This project offers valuable insights into the New York Airbnb market, helping b
 ## Author  
 **Yash Ingle**  
 📧 yashingle.work@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/yashingle/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/yashingle24)  
 
 ---
 
