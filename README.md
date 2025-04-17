@@ -1,12 +1,13 @@
 # 👋 Hi, I'm Yash!  
 
-![SQL](https://img.shields.io/badge/SQL-Used-blue?logo=postgresql)
-![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
-![Tableau](https://img.shields.io/badge/Tableau-Used-blue?logo=tableau)
-![R](https://img.shields.io/badge/R-Used-blue?logo=r)
-![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Used-blue?logo=chart)
-![Python](https://img.shields.io/badge/Python-Used-blue?logo=python)
-![Excel](https://img.shields.io/badge/Excel-Used-blue?logo=microsoft-excel)
+![SQL](https://img.shields.io/badge/SQL-Skills-blue?logo=postgresql)
+![Power BI](https://img.shields.io/badge/Power%20BI-Proficient-yellow?logo=powerbi)
+![Tableau](https://img.shields.io/badge/Tableau-Experienced-blue?logo=tableau)
+![R](https://img.shields.io/badge/R-Technologies-Used-blue?logo=r)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Tools-Used-blue?logo=chart)
+![Python](https://img.shields.io/badge/Python-Skills-blue?logo=python)
+![Excel](https://img.shields.io/badge/Excel-Technologies-Used-blue?logo=microsoft-excel)
+
 ---
 🚀 *Aspiring Data Analyst* | SQL | Tableau | Power BI | R | Data Visualization  
 
