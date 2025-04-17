@@ -1,5 +1,8 @@
 # 👩‍💼 HR Analytics Dashboard  
 
+![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
+---
+
 ## 📝 Project Overview  
 This *HR Analytics Dashboard* provides insights to help organizations *reduce employee attrition* and *improve workforce productivity*.  
 
@@ -20,7 +23,7 @@ This *HR Analytics Dashboard* provides insights to help organizations *reduce em
 
 
 ## 📂 Tools & Technologies  
-- *Power BI / Tableau*  
+- *Power BI*  
 - *Data Analysis & Visualization*  
 - *HR Metrics Analysis*  
 
