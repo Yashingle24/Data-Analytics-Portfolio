@@ -6,7 +6,7 @@ Welcome to my *Data Analytics Portfolio*, where I showcase projects focused on *
 
 ---
 
-## 📁 *Projects*  
+## 📁 Projects  
 
 ### 📌 1. Cyclistic Case Study  
 📊 **Objective:**  
@@ -88,7 +88,16 @@ Created an *interactive dashboard* to analyze online sales performance.
 
 ---
 
-## 📬 *Connect With Me*  
+### 📌 9. Python Projects – Data Analysis with Python 🐍  
+📂 **Folder:** `Python Projects`  
+🔍 **Overview:**  
+A collection of projects leveraging **Python** for data cleaning, exploratory data analysis (EDA), and visualization. These projects showcase the use of **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, and more.
+
+
+
+---
+
+## 📬 Connect With Me  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/yashingle24)  
 - 📧 yashingle.work@gmail.com  
 - 💻 [Medium Blog (Coming Soon)](#)  
@@ -97,4 +106,4 @@ Created an *interactive dashboard* to analyze online sales performance.
 
 ⭐ *If you find my work useful, feel free to star this repository!*  
 
---- 
+---
