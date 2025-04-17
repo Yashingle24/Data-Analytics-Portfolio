@@ -4,6 +4,10 @@
 ![Project Logo](logo.png)  
 
 ---
+![SQL](https://img.shields.io/badge/SQL-Used-blue?logo=postgresql)
+![Excel](https://img.shields.io/badge/Excel-Used-blue?logo=microsoft-excel)
+![Tableau](https://img.shields.io/badge/Tableau-Used-blue?logo=tableau)
+---
 
 ## 🎯 **Objective**  
 This project aims to analyze **Netflix's dataset** using **SQL** to extract meaningful insights — helping to understand **content trends**, **popular genres**, and **regional preferences**.
@@ -21,6 +25,12 @@ The dataset includes the following key attributes:
 - **Duration** & **Listed Genres**  
 - **Description**
 
+---
+
+## **Tools Used**
+-**SQL**
+-**Tableau**
+-**Excel**
 ---
 
 ## 📁 **Project Files Included**  
