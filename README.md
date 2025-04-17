@@ -20,7 +20,7 @@ Welcome to my *Data Analytics Portfolio*, where I showcase projects focused on *
 
 
 ### 📌 1. Python Projects – Data Analysis with Python 🐍
-📂 **Folder:** `Python Projects`(https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects)  
+📂 **Folder:** [`Python Projects`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects)  
 🔍 **Overview:**  
 A collection of projects leveraging **Python** for data cleaning, exploratory data analysis (EDA), and visualization. These projects showcase the use of **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, and more.
 
