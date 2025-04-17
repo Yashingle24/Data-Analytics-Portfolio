@@ -4,6 +4,9 @@
 ![Project Logo](logo.png)  
 
 ---
+![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
+---
+---
 
 ## 📝 Project Overview  
 This **Blinkit Sales Analysis Dashboard** provides insights into sales trends, item performance, and outlet distribution, helping businesses optimize sales strategies.  
