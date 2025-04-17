@@ -10,95 +10,16 @@
 
 
 ---
-🚀 *Aspiring Data Analyst* | SQL | Tableau | Power BI | R | Data Visualization  
+🚀 *Aspiring Data Analyst* |Python | SQL | Tableau | Power BI | R | Data Visualization  
 
-Welcome to my *Data Analytics Portfolio*, where I showcase projects focused on **business intelligence**, **dashboarding**, and **data-driven decision-making**. I specialize in transforming raw data into meaningful insights using **Power BI**, **Tableau**, and **SQL**.
+Welcome to my *Data Analytics Portfolio*, where I showcase projects focused on **business intelligence**, **dashboarding**, and **data-driven decision-making**. I specialize in transforming raw data into meaningful insights using **Python**, **SQL** , **Power BI**, **Tableau**, and **Excel**.
 
 ---
 
 ## 📁 Projects  
 
-### 📌 1. Cyclistic Case Study  
-📊 **Objective:**  
-Analyze Cyclistic's ride data to boost membership conversion.  
 
-🛠️ **Tools Used:**  
-- SQL → Data cleaning and transformation  
-- Power BI → Visualization and dashboard creation  
-- Power Query → Data processing and transformation  
-- Excel → Additional analysis and reporting  
-
----
-
-### 📌 2. Netflix Data Analysis Project  
-📊 **Objective:**  
-Analyze Netflix's dataset using SQL to extract insights about content trends, popular genres, and regional preferences — and visualize findings with Tableau.  
-
-🛠️ **Tools Used:** Excel, SQL, Tableau    
-
----
-
-### 📌 3. Blinkit Sales Analysis  
-📊 **Objective:**  
-- Analyze total sales, average sales, item distribution, and customer ratings  
-- Identify sales trends by item type, outlet type, and fat content  
-- Enable data-driven decision-making for better sales performance  
-
-🛠️ **Tools & Technologies:**  
-- Power BI → Data Visualization  
-- Excel/CSV → Data Processing  
-
----
-
-### 📌 4. Ola Ride Analytics Project  
-📊 **Objective:**  
-Analyzed Ola ride data to explore ride booking trends, cancellations, and payment patterns.  
- 
-🛠️ **Tools Used:**  
-- SQL → Data Analysis & Views  
-- Power BI → Interactive Dashboard (`OLA DASH`)  
-- Excel → Insight Reporting  
-- CSV → Raw Data Handling  
-
----
-
-### 📌 5. Road Accident Analysis  
-📊 **Objective:**  
-Analyze road accident data using Advanced Excel to gain insights into accident severity, casualties, vehicle types, and road conditions.  
-
-🛠️ **Tools Used:** Microsoft Excel  
-- Data Cleaning & Processing  
-- Pivot Tables, Charts, Slicers, Filters  
-- KPI Metrics  
-- Interactive Dashboard  
-
----
-
-### 📌 6. Superstore Sales Analysis & Forecasting (Power BI)  
-📊 **Objective:**  
-Used *time series analysis* to forecast sales and drive business success.  
-
-🛠️ **Tools Used:** Power BI, Time Series Analysis    
-
----
-
-### 📌 7. HR Analytics Dashboard (Power BI)  
-📊 **Objective:**  
-Helped an organization *reduce attrition* and *improve workforce productivity*.  
-
-🛠️ **Tools Used:** Power BI, HR Analytics   
-
----
-
-### 📌 8. E-Commerce Sales Dashboard (Tableau)  
-📊 **Objective:**  
-Created an *interactive dashboard* to analyze online sales performance.  
-
-🛠️ **Tools Used:** Tableau, SQL  
-
----
-
-### 📌 9. Python Projects – Data Analysis with Python 🐍  
+### 📌 1. Python Projects – Data Analysis with Python 🐍  
 📂 **Folder:** `Python Projects`  
 🔍 **Overview:**  
 A collection of projects leveraging **Python** for data cleaning, exploratory data analysis (EDA), and visualization. These projects showcase the use of **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, and more.
@@ -110,6 +31,87 @@ A collection of projects leveraging **Python** for data cleaning, exploratory da
 Feel free to explore through jupyter notebooks within.
 
 ---
+
+### 📌 2. Cyclistic Case Study  
+📊 **Objective:**  
+Analyze Cyclistic's ride data to boost membership conversion.  
+
+🛠️ **Tools Used:**  
+- SQL → Data cleaning and transformation  
+- Power BI → Visualization and dashboard creation  
+- Power Query → Data processing and transformation  
+- Excel → Additional analysis and reporting  
+
+---
+
+### 📌 3. Netflix Data Analysis Project  
+📊 **Objective:**  
+Analyze Netflix's dataset using SQL to extract insights about content trends, popular genres, and regional preferences — and visualize findings with Tableau.  
+
+🛠️ **Tools Used:** Excel, SQL, Tableau    
+
+---
+
+### 📌 4. Blinkit Sales Analysis  
+📊 **Objective:**  
+- Analyze total sales, average sales, item distribution, and customer ratings  
+- Identify sales trends by item type, outlet type, and fat content  
+- Enable data-driven decision-making for better sales performance  
+
+🛠️ **Tools & Technologies:**  
+- Power BI → Data Visualization  
+- Excel/CSV → Data Processing  
+
+---
+
+### 📌 5. Ola Ride Analytics Project  
+📊 **Objective:**  
+Analyzed Ola ride data to explore ride booking trends, cancellations, and payment patterns.  
+ 
+🛠️ **Tools Used:**  
+- SQL → Data Analysis & Views  
+- Power BI → Interactive Dashboard (`OLA DASH`)  
+- Excel → Insight Reporting  
+- CSV → Raw Data Handling  
+
+---
+
+### 📌 6. Road Accident Analysis  
+📊 **Objective:**  
+Analyze road accident data using Advanced Excel to gain insights into accident severity, casualties, vehicle types, and road conditions.  
+
+🛠️ **Tools Used:** Microsoft Excel  
+- Data Cleaning & Processing  
+- Pivot Tables, Charts, Slicers, Filters  
+- KPI Metrics  
+- Interactive Dashboard  
+
+---
+
+### 📌 7. Superstore Sales Analysis & Forecasting (Power BI)  
+📊 **Objective:**  
+Used *time series analysis* to forecast sales and drive business success.  
+
+🛠️ **Tools Used:** Power BI, Time Series Analysis    
+
+---
+
+### 📌 8. HR Analytics Dashboard (Power BI)  
+📊 **Objective:**  
+Helped an organization *reduce attrition* and *improve workforce productivity*.  
+
+🛠️ **Tools Used:** Power BI, HR Analytics   
+
+---
+
+### 📌 9. E-Commerce Sales Dashboard (Tableau)  
+📊 **Objective:**  
+Created an *interactive dashboard* to analyze online sales performance.  
+
+🛠️ **Tools Used:** Tableau, SQL  
+
+---
+
 
 ## 📬 Connect With Me  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/yashingle24)  
