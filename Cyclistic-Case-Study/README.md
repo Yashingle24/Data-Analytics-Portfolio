@@ -1,5 +1,8 @@
 # 🚴‍♂️ Cyclistic Bike-Share Data Analysis | Google Data Analytics Capstone Project
 ---
+![SQL](https://img.shields.io/badge/SQL-Used-blue?logo=postgresql)
+![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
+---
 <p align="center">
   <img src="logo.png" alt="Project Logo"/>
 </p>
