@@ -1,6 +1,8 @@
 # 🛒 Walmart Data Analysis: End-to-End SQL + Python Project
 
 ---
+![Project Pipeline](walmart_project-piplelines.png)
+---
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Used-blue?logo=postgresql)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
@@ -102,6 +104,42 @@ Executed multiple SQL queries to answer high-impact business questions, such as:
 |-- requirements.txt          # Python dependency list
 |-- main.py                   # Main script for full pipeline execution
 ```
+
+---
+## Included Files
+
+This repository contains the following main files:
+
+- `notebooks/walmart_analysis.ipynb` — Jupyter Notebook for data cleaning, processing, and transformation using Python.
+- `sql_queries/walmart_analysis_queries.sql` — SQL script containing all queries used to solve the business problems in PostgreSQL.
+- `requirements.txt` — Python library dependencies.
+- `README.md` — Complete project documentation.
+
+---
+## Results and Insights
+
+This section summarizes key findings from the analysis conducted on the Walmart sales data.
+
+- **Sales Trends**: 
+  - We identified significant seasonality in the sales data. Certain months (e.g., November and December) showed a sharp increase in sales, aligning with holiday shopping trends. This is critical for inventory planning and marketing campaigns.
+  
+- **High-Performing Branches**: 
+  - Some branches consistently outperformed others, particularly those located in urban areas with higher population densities. This trend suggests that location plays a major role in sales volume.
+
+- **Customer Behavior**: 
+  - Payment method preferences were analyzed, revealing a strong preference for card payments over cash. This could indicate a shift in customer behavior toward digital payments.
+  - We also observed peak shopping times, with the highest sales occurring during weekends and evening hours. This information is valuable for staffing and promotional strategies.
+
+- **Category Performance**: 
+  - Certain product categories, such as electronics and clothing, were consistently among the highest in sales, accounting for a large percentage of total revenue. These categories should be prioritized in marketing and stocking strategies.
+  
+- **Revenue Insights**: 
+  - Revenue was directly correlated with specific promotional periods. When discounts were applied, we saw a spike in sales across multiple product categories.
+  
+- **Profit Margin Analysis**: 
+  - The analysis of profit margins across various product categories indicated that some branches with high sales volume had lower profit margins. This suggests that the pricing strategy for these branches may need to be revisited.
+
+These insights provide a clear understanding of sales performance, customer behavior, and product category dynamics that can help drive business decisions at Walmart.
 
 ---
 
