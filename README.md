@@ -1,5 +1,13 @@
 # 👋 Hi, I'm Yash!  
 
+![SQL](https://img.shields.io/badge/SQL-Used-blue?logo=postgresql)
+![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
+![Tableau](https://img.shields.io/badge/Tableau-Used-blue?logo=tableau)
+![R](https://img.shields.io/badge/R-Used-blue?logo=r)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Used-blue?logo=chart)
+![Python](https://img.shields.io/badge/Python-Used-blue?logo=python)
+![Excel](https://img.shields.io/badge/Excel-Used-blue?logo=microsoft-excel)
+---
 🚀 *Aspiring Data Analyst* | SQL | Tableau | Power BI | R | Data Visualization  
 
 Welcome to my *Data Analytics Portfolio*, where I showcase projects focused on **business intelligence**, **dashboarding**, and **data-driven decision-making**. I specialize in transforming raw data into meaningful insights using **Power BI**, **Tableau**, and **SQL**.
