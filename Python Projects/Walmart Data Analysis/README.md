@@ -157,11 +157,15 @@ These insights provide a clear understanding of sales performance, customer beha
 - **Inspiration**: Real-world business cases from Walmart’s retail strategies
 
 ---
+## 📜 License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 ## 👤 Author
 
 **Yash Ingle**  
 📧 [yashingle.work@gmail.com](mailto:yashingle.work@gmail.com)  
-🔗 [LinkedIn: yashingle](https://www.linkedin.com/in/yashingle)
+🔗 [LinkedIn: yashingle](https://www.linkedin.com/in/yashingle24)
 
 ---
