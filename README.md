@@ -93,7 +93,11 @@ Created an *interactive dashboard* to analyze online sales performance.
 🔍 **Overview:**  
 A collection of projects leveraging **Python** for data cleaning, exploratory data analysis (EDA), and visualization. These projects showcase the use of **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, and more.
 
+**CONTENTS**
+- `Airbnb Analysis Project` → A data analysis project using Python.
+- `Walmart Data Analysis Project` → A data analysis project using SQL & Python
 
+Feel free to explore through jupyter notebooks within.
 
 ---
 
