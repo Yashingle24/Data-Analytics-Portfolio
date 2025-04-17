@@ -15,8 +15,9 @@ Whether it's cleaning messy data, performing exploratory data analysis (EDA), or
 
 ## 📁 This folder contains:
 
-- `Airbnb Listings – New York 2024` → A data analysis project using EDA techniques on Airbnb data  
-*(More Python-based projects will be added soon)*
+- `Airbnb  – New York 2024` → A data analysis project using EDA techniques on Airbnb data  
+- `Walmart Data Analysis` → A data analysis project using python and sql.
+- *(More Python-based projects will be added soon)*
 
 ---
 
