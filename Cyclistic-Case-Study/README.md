@@ -69,7 +69,8 @@ The data used in this project was made publicly available by **Motivate Internat
 ---
 
 ## 👥 *Contributors*
-- **Yash Ingle**  
+- **Yash Ingle**
+  [Linkedin](www.linkedin.com/in/yashingle24) | [Portfolio Website](https//yashingle24.github.io)
 - Cyclistic Data Analytics Team (case study context)
 
 ---
