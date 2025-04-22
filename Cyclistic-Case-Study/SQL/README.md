@@ -10,5 +10,5 @@ This folder contains *SQL scripts* used for data cleaning and analysis.
 2. Use analysis_queries.sql to generate insights.
 
 ## ⚠ *Database Used*
-- The queries were tested on *MySQL/PostgreSQL*.
+- The queries were tested on *PostgreSQL*.
 - Some syntax may require adjustments for different SQL dialects.
