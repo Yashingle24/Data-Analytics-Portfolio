@@ -7,6 +7,8 @@
 
 ![SQL](https://img.shields.io/badge/SQL-Used-blue?logo=postgresql)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Used-yellow?logo=powerbi)
+![MS PowerPoint](https://img.shields.io/badge/Power%20BI-Used-red?logo=powerbi)
+
 ---
 
 ## 📊 *Project Overview*
@@ -70,7 +72,6 @@ The data used in this project was made publicly available by **Motivate Internat
 
 ## 👥 *Contributors*
 - **Yash Ingle**
-  [Linkedin](www.linkedin.com/in/yashingle24) | [Portfolio Website](https//yashingle24.github.io)
 - Cyclistic Data Analytics Team (case study context)
 
 ---
