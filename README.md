@@ -27,6 +27,7 @@ A collection of projects leveraging **Python** for data cleaning, exploratory da
 - [`Airbnb Analysis Project`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects/AIRBNB) → A data analysis project using Python.
 - [`Walmart Data Analysis Project`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects/Walmart%20Data%20Analysis) → A data analysis project using SQL & Python
 - [`Retail Sales Insights`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects/Retail%20Analytics%20(Python%2C%20SQL))  → A data analysis project using SQL & Python
+- [`Blinkit Sales Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Python%20Projects/Blinkit%20%20Sales%20Analysis)  → A data analysis project using Python
 
 Feel free to explore through jupyter notebooks within.
 
