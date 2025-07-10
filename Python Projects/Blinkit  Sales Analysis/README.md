@@ -1,5 +1,11 @@
 # 📦 Blinkit Sales Performance Analysis
 
+---
+
+![Project Logo](logo.png)  
+
+---
+
 ![Python](https://img.shields.io/badge/Python-Used-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Used-lightgrey?logo=pandas)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Used-lightblue?logo=seaborn)
