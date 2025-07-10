@@ -36,7 +36,7 @@ The dataset contains **20,765 entries and 22 features**, including:
 
 ## Contents  
 This project folder contains the following files:  
-- A **Jupyter Notebook** file: `day23_airbnb_eda.ipynb`  
+- A **Jupyter Notebook** file: `analysis.ipynb`  
 - A **CSV file** containing the Airbnb listings dataset  
 
 ---
