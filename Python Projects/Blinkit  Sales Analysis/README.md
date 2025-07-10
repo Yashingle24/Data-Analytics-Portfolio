@@ -37,6 +37,13 @@ This project focuses on analyzing Blinkit's sales data to uncover insights about
 
 ---
 
+## Contents  
+This project folder contains the following files:  
+- A **Jupyter Notebook** file: `Blinkit_Analysis.ipynb`  
+- A **CSV file** containing the Blinkit Sales dataset  
+
+---
+
 ## 🧹 Data Cleaning & Preparation
 
 Performed the following steps in Python using Jupyter/Colab:
