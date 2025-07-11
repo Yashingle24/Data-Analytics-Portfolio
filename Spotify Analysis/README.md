@@ -1,95 +1,131 @@
 <p align="center">
-  <img src="logo.png" alt="Logo" width="150"/>
+  <img src="logo.png" alt="Logo" width="350"/>
 </p>
 
-# 🎧 Spotify Listening Behavior Analysis (Power BI)
+# 🎧 Spotify Listening Behavior Analysis (Power BI + SQL)
 
 ---
 
 ## 📌 Project Overview
 
-This project presents an in-depth Power BI dashboard built to analyze Spotify listening patterns using historical streaming data. It includes dynamic drill-through features, advanced DAX measures, and interactive visuals that help derive business insights across Albums, Artists, Tracks, and Listening Time.
+This repository contains **two advanced analytical projects** based on Spotify listening and track performance data, built using:
 
-The aim is to support data-driven decisions by analyzing listening frequency, platform preferences, engagement metrics, and user behavior over time.
+- 📊 **Power BI** for visual storytelling and dashboarding
+- 🧮 **Advanced SQL** for deep data querying and metric derivation
 
----
-
-## 🎯 Business Objectives
-
-The dashboard was designed to answer specific business questions for each data category:
-
-### 🟩 Albums
-- Total Albums Played Over Time  
-- Yearly Album Diversity – Min/Max albums per year  
-- Weekday vs Weekend Album Trends  
-- Top 5 Albums by Frequency  
-- Latest Year vs Previous Year Analysis (YoY % change)  
-
-### 🟩 Artists
-- Total Artists Played Over Time  
-- Number of Unique Artists per Year  
-- Top Artists by Frequency  
-- Artist Engagement: Weekday vs Weekend  
-- Latest Year vs Previous Year Analysis  
-
-### 🟩 Tracks
-- Total Tracks Played Over Time  
-- Track Diversity by Year  
-- Top Tracks by Frequency  
-- Track Trends on Weekdays vs Weekends  
-- Latest Year vs Previous Year Analysis  
-
-### 🟩 Listening Patterns
-- Listening Hours Heatmap – Identify peak listening hours across weekdays  
-- Listening Time vs Track Frequency (Scatter Plot with Quadrant Analysis):  
-  - High Frequency + High Listening Time = **Most Engaging**  
-  - Low Frequency + High Listening Time = **Niche Impactful**  
-  - High Frequency + Low Listening Time = **Short Popular**  
-  - Low Frequency + Low Listening Time = **Less Popular**
-
-### 🟩 Detailed Grid View
-- Drill-through enabled table with key details: Album Name, Artist Name, Track Name, etc.  
-- Supports drill-down, drill-up, and CSV export  
+Both projects aim to uncover patterns in music consumption, artist performance, and listener behavior over time.
 
 ---
 
-## 🛠 Tools & Technologies Used
+## 🗂️ Folder Structure
 
-| Component        | Description                                      |
-|------------------|--------------------------------------------------|
-| **Power BI Desktop** | Dashboard design, data modeling, DAX calculations |
-| **DAX**              | Custom date intelligence, YoY metrics, ranking logic |
-| **Power Query**      | Data transformation and cleanup               |
-| **Drill-Through Filters** | Enabled user-level exploration           |
-| **Custom Visuals**    | Heatmaps, scatter plots, grid tables         |
-| **Relational Modeling** | Relationships between Album, Artist, Track, and Time tables |
-
----
-
-## 📊 Key Features
-
-- 📅 **Date-Based Filtering:** Interactive slicers based on Year, Platform, and Listening Preferences  
-- 🧠 **Advanced Analytics:** Year-over-year (YoY) comparisons, Top-N filtering, dynamic visuals  
-- 🎯 **User Interactivity:** Drill-through, tooltips, and platform filters for in-depth analysis  
-- 💡 **Insights Generation:** Understand what users listen to, when, and how often  
+| File / Folder             | Description                                 |
+|---------------------------|---------------------------------------------|
+| `Spotify_Analysis.pbix`   | Power BI dashboard file                     |
+| `spotify_data_winr.xlsx`  | Cleaned data used in the Power BI project   |
+| `spotify_dataset_sql.csv` | Raw dataset used for SQL analysis           |
+| `spotify_sql_project.sql` | Complete SQL script with EDA and practice queries |
+| `Spotify_Dashboard.mp4`   | Walkthrough video of Power BI dashboard     |
 
 ---
 
-## 🗂️ Folder Contents
+## 📊 Project 1 – Power BI Dashboard
 
-| File / Folder            | Description                             |
-|--------------------------|-----------------------------------------|
-| `Spotify_Analysis.pbix`  | Power BI dashboard file                 |
-| `spotify_data_winr.xlsx` | Cleaned data file used in Power BI      |
-| `Spotify_Dashboard.mp4`  | Walkthrough video of the dashboard      |
+### 🎯 Business Objectives
+
+#### 🟩 Albums
+- Total albums played over time  
+- Yearly album diversity  
+- Weekday vs weekend album trends  
+- Top 5 albums by frequency  
+- Year-over-year comparison  
+
+#### 🟩 Artists
+- Artist performance over time  
+- Top artists by listening frequency  
+- Unique artists per year  
+- Weekday vs weekend artist engagement  
+
+#### 🟩 Tracks
+- Total tracks played  
+- Diversity of tracks per year  
+- Top tracks  
+- Track popularity trends  
+
+#### 🟩 Listening Patterns
+- 🎛️ Heatmaps for hour-by-hour listening  
+- 🎯 Quadrant Analysis of Frequency vs Time:
+  - **High Frequency + High Time** = Most Engaging  
+  - **Low Frequency + High Time** = Niche Impactful  
+  - **High Frequency + Low Time** = Short Popular  
+  - **Low Frequency + Low Time** = Less Popular  
+
+#### 🟩 Drillthrough Table
+- Album Name, Artist Name, Track Name, Duration  
+- Export enabled to CSV  
+
+### 🛠 Tools & Techniques Used
+
+| Tool               | Usage                                             |
+|--------------------|--------------------------------------------------|
+| Power BI Desktop   | Dashboard design, visualizations, DAX            |
+| DAX                | Date intelligence, ranking logic, YoY metrics    |
+| Power Query        | ETL – data shaping and cleaning                  |
+| Drill-throughs     | User-level data exploration                      |
+| Custom Visuals     | Heatmaps, scatter plots, slicers, tables         |
+
+---
+
+## 🧮 Project 2 – Advanced SQL Project
+
+The SQL-based project uses a Spotify dataset to perform EDA, filtering, aggregation, window functions, and practice-level queries across multiple difficulty levels.
+
+### 🔍 Exploratory Data Analysis (EDA)
+
+- Count of rows, albums, and cleanup of invalid durations  
+- Filtering zero-duration tracks  
+- Summary of dataset attributes  
+
+### ✅ Practice SQL Queries
+
+#### 🟢 Very Easy
+- Tracks with >1B streams  
+- Albums with artists  
+- Total comments where licensed = TRUE  
+- Single-type albums  
+- Count of tracks by each artist  
+
+#### 🟡 Medium
+- Tracks with above-average liveness  
+- Avg danceability per album  
+- Top 5 tracks by energy  
+- Tracks with official videos and their views/likes  
+- Views by album  
+- Tracks streamed more on Spotify than YouTube  
+- Cumulative likes by views using window functions  
+
+#### 🔴 Advanced
+- Top 3 viewed tracks per artist using `DENSE_RANK()`  
+- Energy range per album using `WITH` clause  
+- Tracks with energy-to-liveness ratio > 1.2 (two approaches)
+
+---
+
+## 💼 Skills Demonstrated
+
+- SQL Window Functions (`RANK()`, `SUM() OVER`)  
+- Aggregations & Grouping  
+- Subqueries & Common Table Expressions (CTEs)  
+- Power BI DAX Measures  
+- Interactive Slicers, Drill-downs, Tooltips  
 
 ---
 
 ## 📬 Connect With Me
 
-- 🔗 **LinkedIn** – [Yash Ingle](https://www.linkedin.com/in/yashingle24)  
-- 📧 **Email** – yashingle.work@gmail.com  
+- 🔗 [LinkedIn – Yash Ingle](https://www.linkedin.com/in/yashingle24)  
+- 📧 yashingle.work@gmail.com  
 
 ---
 
-⭐ **If you found this project insightful or helpful, feel free to star the repository!**
+⭐ **If you found this project insightful or helpful, don't forget to star this repository!**
