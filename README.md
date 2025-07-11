@@ -67,8 +67,23 @@ Analyze Netflix's dataset using SQL to extract insights about content trends, po
 - Excel/CSV → Data Processing  
 
 ---
+### 📌 5. Spotify Analytics Project  
+📂 **Folder:** [`Spotify Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Ola%20Rides%20Analysis)  
+This repository contains **two advanced analytical projects** based on Spotify listening and track performance data, built using:
 
-### 📌 5. Ola Ride Analytics Project  
+- 📊 **Power BI** for visual storytelling and dashboarding
+- 🧮 **Advanced SQL** for deep data querying and metric derivation
+
+Both projects aim to uncover patterns in music consumption, artist performance, and listener behavior over time.
+ 
+🛠️ **Tools Used:**  
+- SQL → Data Analysis & Views  
+- Power BI → Interactive Dashboard (`Spotify DASH`)  
+- CSV → Raw Data Handling  
+
+---
+
+### 📌 6. Ola Ride Analytics Project  
 📂 **Folder:** [`Ola Ride Analytics`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Ola%20Rides%20Analysis)  
 📊 **Objective:**  
 Analyzed Ola ride data to explore ride booking trends, cancellations, and payment patterns.  
@@ -81,7 +96,7 @@ Analyzed Ola ride data to explore ride booking trends, cancellations, and paymen
 
 ---
 
-### 📌 6. Road Accident Analysis  
+### 📌 7. Road Accident Analysis  
 📂 **Folder:** [`Road Accident Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Road%20Accident%20Analysis)  
 📊 **Objective:**  
 Analyze road accident data using Advanced Excel to gain insights into accident severity, casualties, vehicle types, and road conditions.  
@@ -94,7 +109,7 @@ Analyze road accident data using Advanced Excel to gain insights into accident s
 
 ---
 
-### 📌 7. Superstore Sales Analysis & Forecasting (Power BI)  
+### 📌 8. Superstore Sales Analysis & Forecasting (Power BI)  
 📂 **Folder:** [`Superstore Sales Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Superstore%20Sales%20Analysis)  
 📊 **Objective:**  
 Used *time series analysis* to forecast sales and drive business success.  
@@ -103,7 +118,7 @@ Used *time series analysis* to forecast sales and drive business success.
 
 ---
 
-### 📌 8. HR Analytics Dashboard (Power BI)  
+### 📌 9. HR Analytics Dashboard (Power BI)  
 📂 **Folder:** [`HR Analytics Dashboard`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/HR%20Analytics)  
 📊 **Objective:**  
 Helped an organization *reduce attrition* and *improve workforce productivity*.  
@@ -112,7 +127,7 @@ Helped an organization *reduce attrition* and *improve workforce productivity*.
 
 ---
 
-### 📌 9. E-Commerce Sales Dashboard (Tableau)  
+### 📌 10. E-Commerce Sales Dashboard (Tableau)  
 📂 **Folder:** [`E-Commerce Sales Dashboard`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/E-Commerce%20Sales)  
 📊 **Objective:**  
 Created an *interactive dashboard* to analyze online sales performance.  
@@ -125,7 +140,7 @@ Created an *interactive dashboard* to analyze online sales performance.
 ## 📬 Connect With Me  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/yashingle24)  
 - 📧 yashingle.work@gmail.com  
-- 💻 [Medium Blog (Coming Soon)](#)  
+- 💻 `Portfolio`(https://yashingle24.github.io)  
 
 ---
 
