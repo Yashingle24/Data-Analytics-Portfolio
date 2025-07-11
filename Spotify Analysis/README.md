@@ -25,7 +25,7 @@ Both projects aim to uncover patterns in music consumption, artist performance, 
 | `Spotify Data(powerbi_project).rar`  | Cleaned data used in the Power BI project   |
 | `spotify_cleaned(sql_project).csv` | Raw dataset used for SQL analysis           |
 | `spotify_sql_project.sql` | Complete SQL script with EDA and practice queries |
-| `Spotify_Dashboard.mp4`   | Walkthrough video of Power BI dashboard     |
+| `Spotify_Dash.mp4`   | Walkthrough video of Power BI dashboard     |
 
 ---
 
