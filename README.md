@@ -68,7 +68,7 @@ Analyze Netflix's dataset using SQL to extract insights about content trends, po
 
 ---
 ### 📌 5. Spotify Analytics Project  
-📂 **Folder:** [`Spotify Analysis`](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Ola%20Rides%20Analysis)  
+📂 **Folder:** [`Spotify Analysis`]([https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Ola%20Rides%20Analysis](https://github.com/Yashingle24/Data-Analytics-Portfolio/tree/main/Spotify%20Analysis))  
 This repository contains **two advanced analytical projects** based on Spotify listening and track performance data, built using:
 
 - 📊 **Power BI** for visual storytelling and dashboarding
